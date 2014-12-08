@@ -40,3 +40,6 @@ for a guide to running the tests.
 
 Thanks to
 [everyone who has contributed](https://github.com/symfony-cmf/standard-edition/contributors) already.
+=======
+CmfDemo
+=======
