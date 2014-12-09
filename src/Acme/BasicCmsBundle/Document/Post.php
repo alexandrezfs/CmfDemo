@@ -2,14 +2,13 @@
 
 namespace Acme\BasicCmsBundle\Document;
 
-use Symfony\Cmf\Component\Routing\RouteReferrersReadInterface;
-
 use Doctrine\ODM\PHPCR\Mapping\Annotations as PHPCR;
+use Symfony\Cmf\Component\Routing\RouteReferrersReadInterface;
 
 /**
  * @PHPCR\Document(referenceable=true)
  */
-class Page implements RouteReferrersReadInterface
+class Post implements RouteReferrersReadInterface
 {
     use ContentTrait;
 
